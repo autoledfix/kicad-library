@@ -1,2 +1,2 @@
 # kicad-library
- kicad symbols, footprints & 3dmodels
+ Kicad 7 library: symbols, footprints & 3dmodels.

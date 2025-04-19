@@ -1,0 +1,171 @@
+(footprint "XINGLIGHT-XL-C1860P5S11-62C3C1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "High Power CSP LED, 2.36mm x 2.36mm, 1.4A max, https://cdn.samsung.com/led/file/resource/2021/01/Data_Sheet_LH181B_Rev.4.0.pdf")
+	(tags "LED Samsung LH181B")
+	(property "Reference" "REF**"
+		(at 0.2 -3.4 0)
+		(layer "F.SilkS")
+		(uuid "7e1d6f84-4e47-45a2-a919-acd57f4dbde4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XINGLIGHT-XL-C1860P5S11-62C3C1"
+		(at 0 3.6 0)
+		(layer "F.Fab")
+		(uuid "10eccb04-ce80-4098-b791-61274f33fee1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b976d31-fb25-481a-bdc0-6ae6d46aef2c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9d73f3c-d41f-4997-b38e-9f16eed074ea")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1fe672f-4a42-47cf-a010-d2011f510228")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.25 -0.15)
+		(end -3.25 0.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9234dd13-a35e-448f-8230-d09294330f91")
+	)
+	(fp_rect
+		(start -3.1 -0.95)
+		(end 3.1 0.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "49c225f1-21e2-44b0-bb4f-bd6c5fe3e546")
+	)
+	(fp_line
+		(start -3.1 -0.95)
+		(end 3.1 -0.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d29f917a-355e-4965-bee3-9545660d7b69")
+	)
+	(fp_line
+		(start -3.1 0.95)
+		(end -3.1 -0.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a868988e-f827-4b50-a0fa-8c9e4fa8bab9")
+	)
+	(fp_line
+		(start 3.1 -0.95)
+		(end 3.1 0.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ae90b4bc-5037-40c9-8411-5dd2207cca66")
+	)
+	(fp_line
+		(start 3.1 0.95)
+		(end -3.1 0.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8dbdbb4b-448d-4a77-8628-6f702072cf88")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "587938d4-70e2-4c21-a234-0e773997dc8a")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "0" smd rect
+		(at 0 0 90)
+		(size 1.8 4.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.1)
+		(uuid "beaf3d5a-06a1-4270-8991-d97909505e87")
+	)
+	(pad "1" smd rect
+		(at -2.8 0 90)
+		(size 1.8 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.1)
+		(uuid "96c70ef5-57e4-4b4c-bc4b-58f3ebd449e4")
+	)
+	(pad "2" smd rect
+		(at 2.8 0 90)
+		(size 1.8 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.1)
+		(uuid "6ec127e0-e7f2-4424-b067-ac970360b7ae")
+	)
+	(model "/home/alx/Nextcloud/Kicad/3dmodels/XL-C1860P5S11-62C3C1-LED.step"
+		(offset
+			(xyz 0 0 0.06)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,142 @@
+(footprint "LL-R5050AC-2B"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LED; SMD; 5050; PLCC6, amber; 600mcd; 5x5mm; 120°; 1,6÷2,4V; 60mA")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7c8af2e2-f83a-46c5-aa78-18275e24c0e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LL-R5050AC-2B"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "29050a11-dae7-43c2-b16c-fb2703a9ea4a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7798817-43ec-40b7-b9a5-2b9f7639cb98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4cf20d58-e62d-4d53-bea5-1f0a55301ec0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "facc8c34-482b-427d-ad84-05dff95071e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 4 2.6)
+		(end 4.25 2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "3354c61a-376f-4d4a-9aae-627f2423d4a4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "db65be80-3b27-4807-a013-b38f74a0f0f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.7 1.55 90)
+		(size 1.1 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.1)
+		(thermal_bridge_angle 45)
+		(uuid "f38633a3-aaa9-4609-833a-a0e565fccd75")
+	)
+	(pad "2" smd rect
+		(at -2.7 0 90)
+		(size 1 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.1)
+		(thermal_bridge_angle 45)
+		(uuid "1e7948e1-1c28-4ddd-a1d9-23bc4dcc1cd3")
+	)
+	(pad "3" smd rect
+		(at -2.7 -1.55 90)
+		(size 1.1 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.1)
+		(thermal_bridge_angle 45)
+		(uuid "ef58824a-0d9f-40fa-a6b3-d07f33af7442")
+	)
+	(pad "4" smd rect
+		(at 2.7 -1.55 90)
+		(size 1.1 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.1)
+		(thermal_bridge_angle 45)
+		(uuid "3905a4d3-7cb5-4023-a1d1-bc220bbf61bd")
+	)
+	(pad "5" smd rect
+		(at 2.7 0 90)
+		(size 1 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.1)
+		(thermal_bridge_angle 45)
+		(uuid "101cedce-9425-415b-88e5-cce28bb3efd8")
+	)
+	(pad "6" smd rect
+		(at 2.7 1.55 90)
+		(size 1.1 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.1)
+		(thermal_bridge_angle 45)
+		(uuid "f4e21859-4d9b-405c-a3b0-ba5ae648ac49")
+	)
+)

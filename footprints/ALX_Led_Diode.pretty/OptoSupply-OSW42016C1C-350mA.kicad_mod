@@ -1,0 +1,116 @@
+(footprint "OptoSupply-OSW42016C1C-350mA"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "https://www.tme.eu/Document/f9791984f655df0b861f85955980a18d/OSW42016C1C-350mA.pdf")
+	(tags "LED OptoSupply TopPower OSW42016C1C")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "77bc3ff6-2c37-4e68-86f6-e744f1b96d8b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "OptoSupply-OSW42016C1C-350mA"
+		(at 0 0.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dd822a54-ff55-41d1-9d88-90d17a6621e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8890520e-70aa-44db-8884-08162a4cb153")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2dee2504-3344-4eb5-a938-3826f28381a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb354be7-c1ff-4556-a39b-f9273b24dff0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.6 -0.1)
+		(end -1.6 0.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ebf0a004-5f79-4512-8f6a-1a4e3f0afbdb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e4a25184-5905-4c04-82f1-d6af5eafe407")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.8 0 180)
+		(size 0.8 1.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "4df0d324-e57a-4463-a43e-26cff210b62b")
+	)
+	(pad "2" smd rect
+		(at 0.55 0 180)
+		(size 1.4 1.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "60973cc9-d27b-493a-91d9-f41fc5640547")
+	)
+	(model "/home/alx/Nextcloud/Kicad/3dmodels/XL-C2016P2S10-65B.step"
+		(offset
+			(xyz 0 0 0.5)
+		)
+		(scale
+			(xyz 1.3 1.3 1.3)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

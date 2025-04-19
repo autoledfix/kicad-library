@@ -1,0 +1,110 @@
+(footprint "Refond-FYLS-2835PUAC-0.2W"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LED; SMD; 2835; PLCC2, orange; 2450÷3350(typ)-4650mcd; 120°; 60mA")
+	(property "Reference" "REF**"
+		(at 0.2 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0dd88ae5-c5e7-4342-971d-6904f6dbfcd3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Refond-FYLS-2835PUAC-0.2W"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fc9a22dd-4d68-4dcc-b874-d203dbf14c72")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d019bd8-b2ee-4d37-903c-9e161690b4ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74975b28-3153-4943-9644-729fbc12d78b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6eb37f9d-4ea1-4f21-a335-e157534b26a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.2 -1.4)
+		(end 2 1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "1dbf2210-83f3-471f-bd49-53799c1f8da3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fa45538c-8bea-42fb-bbad-a1eb9a06372b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.5 0)
+		(size 1.2 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.15)
+		(thermal_bridge_angle 45)
+		(uuid "fc2bbb27-4d91-4314-a40c-82ccfe605583")
+	)
+	(pad "2" smd rect
+		(at -1.15 0)
+		(size 2.3 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.15)
+		(thermal_bridge_angle 45)
+		(uuid "177f4935-e75e-49bf-ae48-32bd3349b7f4")
+	)
+)

@@ -1,4 +1,4 @@
-(footprint "Samsung-SPHAMTA2N100-AmberPC"
+(footprint "Samsung-SPHWMTA2N100-CoolWhite"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "Samsung-SPHAMTA2N100-AmberPC"
+	(property "Value" "Samsung-SPHWMTA2N100-CoolWhite"
 		(at 0 3.899999 0)
 		(layer "F.Fab")
 		(hide yes)

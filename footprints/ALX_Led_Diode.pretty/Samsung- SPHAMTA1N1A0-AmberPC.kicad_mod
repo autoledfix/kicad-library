@@ -109,7 +109,7 @@
 		(uuid "ef763d0f-7b09-4245-98b2-f1a168d9f23e")
 	)
 	(embedded_fonts no)
-	(model "/home/krzysztof/Publiczny/KiCad/3dmodels/SPHAMTE1NZA0_AMBER.wrl"
+	(model "/home/krzysztof/Documents/GitHub/kicad-library/3dmodels/Led-Samsung-SPHAMTE1NZA0-PCAMBER.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

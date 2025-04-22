@@ -133,7 +133,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "/home/krzysztof/Publiczny/KiCad/3dmodels/JST-BM05B-PASS-TFT.wrl"
+	(model "/home/krzysztof/Documents/GitHub/kicad-library/3dmodels/Conn-JST-BM05B-PASS-TFT.wrl"
 		(offset
 			(xyz 0 -1.5 0)
 		)

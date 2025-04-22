@@ -126,7 +126,7 @@
 		(uuid "5b99d292-8f88-4df8-a670-1db254fbda04")
 	)
 	(embedded_fonts no)
-	(model "/home/krzysztof/Documents/GitHub/kicad-library/3dmodels/Led-Samsung-SPHAMTA1N1A0-PCAMBER.wrl"
+	(model "/home/krzysztof/Documents/GitHub/kicad-library/3dmodels/Led-Samsung-SPHWMTA1N1A0-WHITE.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
